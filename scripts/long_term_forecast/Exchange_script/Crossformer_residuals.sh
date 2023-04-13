@@ -24,7 +24,9 @@ python -u run.py \
   --d_ff 64 \
   --top_k 5 \
   --des 'Exp' \
-  --itr 1
+  --itr 1 \
+  --use_gpu True \
+  --gpu 0
 
 python -u run.py \
   --task_name long_term_forecast \
@@ -48,6 +50,8 @@ python -u run.py \
   --d_ff 64 \
   --top_k 5 \
   --des 'Exp' \
+  --use_gpu True \
+  --gpu 0 \
   --itr 1
 
 python -u run.py \
@@ -73,6 +77,8 @@ python -u run.py \
   --top_k 5 \
   --des 'Exp' \
   --itr 1 \
+  --use_gpu True \
+  --gpu 0 \
   --train_epochs 1
 
 python -u run.py \
@@ -98,4 +104,6 @@ python -u run.py \
   --top_k 5 \
   --des 'Exp' \
   --itr 1 \
+  --use_gpu True \
+  --gpu 0 \
   --train_epochs 1

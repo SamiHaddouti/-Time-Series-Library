@@ -21,6 +21,8 @@ python -u run.py \
   --dec_in 8 \
   --c_out 8 \
   --des 'Exp' \
+  --use_gpu True \
+  --gpu 0 \
   --itr 1
 
 python -u run.py \
@@ -42,6 +44,8 @@ python -u run.py \
   --dec_in 8 \
   --c_out 8 \
   --des 'Exp' \
+  --use_gpu True \
+  --gpu 0 \
   --itr 1
 
 python -u run.py \
@@ -64,6 +68,8 @@ python -u run.py \
   --c_out 8 \
   --des 'Exp' \
   --itr 1 \
+  --use_gpu True \
+  --gpu 0 \
   --train_epochs 1
 
 python -u run.py \
@@ -85,4 +91,6 @@ python -u run.py \
   --dec_in 8 \
   --c_out 8 \
   --des 'Exp' \
+  --use_gpu True \
+  --gpu 0 \
   --itr 1
