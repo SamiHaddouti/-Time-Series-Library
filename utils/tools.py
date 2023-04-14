@@ -120,12 +120,20 @@ def register_metric(mae, mse, configs):
     pred_len = configs.pred_len
     model = configs.model
     dataset_name = configs.data_path
-    pred_len_dict = {
-        96: 0,
-        192: 1,
-        336: 2,
-        720: 3,
-    }
+    if pred_len in [96, 192, 336, 720]:
+        pred_len_dict = {
+            96: 0,
+            192: 1,
+            336: 2,
+            720: 3,
+        }
+    else:
+        pred_len_dict = {
+            24: 0,
+            36: 1,
+            48: 2,
+            60: 3,
+        }
     dataset_name_dict = {
         "ETTh1.csv": 0,
         "ETTh2.csv": 1,
