@@ -144,6 +144,8 @@ def register_metric(mae, mse, configs):
         "weather.csv": 6,
         "exchange_rate.csv": 7,
         "national_illness.csv": 8,
+        "exchange_rate_VARMA_Residuals.csv": 9,
+        "national_illness_VARMA_Residuals.csv": 10,
     }
     pred_len_index = pred_len_dict[pred_len]
     seq_len_index = int(seq_len / 24)
