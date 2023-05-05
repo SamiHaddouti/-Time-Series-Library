@@ -126,7 +126,7 @@ if __name__ == '__main__':
                 args.task_name,
                 args.model_id,
                 args.model,
-                args.data,
+                os.path.splitext(args.data_path)[0],
                 args.features,
                 args.seq_len,
                 args.label_len,
