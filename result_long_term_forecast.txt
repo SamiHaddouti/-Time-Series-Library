@@ -175,3 +175,6 @@ mse:0.33122408390045166, mae:0.36256787180900574
 long_term_forecast_Exchange_96_720_DLinear_wellfargo_multivariate_ftM_sl96_ll48_pl720_dm512_nh8_el2_dl1_df2048_fc3_ebtimeF_dtTrue_Exp_0  
 mse:0.37244877219200134, mae:0.44625043869018555
 
+long_term_forecast_Exchange_96_96_Informer_wellfargo_multivariate_ftM_sl96_ll48_pl96_dm512_nh8_el2_dl1_df2048_fc3_ebtimeF_dtTrue_Exp_0  
+mse:1.5660325288772583, mae:0.9368358850479126
+
